@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\xamstore-xamarin.mobile.0.7.1\build\monoandroid\xamstore-xamarin.mobile.props" Condition="Exists('..\packages\xamstore-xamarin.mobile.0.7.1\build\monoandroid\xamstore-xamarin.mobile.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{54D61A1B-C98C-4676-B059-752AE7854B1E}</ProjectGuid>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Legion.Client</RootNamespace>
+    <AssemblyName>Legion.Client</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <AndroidApplication>true</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+    <MandroidI18n />
+    <JavaMaximumHeapSize>
+    </JavaMaximumHeapSize>
+    <TargetFrameworkVersion>v6.0</TargetFrameworkVersion>
+    <AndroidUseLatestPlatformSdk>true</AndroidUseLatestPlatformSdk>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <AndroidLinkMode>Full</AndroidLinkMode>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <AndroidLinkMode>SdkOnly</AndroidLinkMode>
+    <Debugger>Xamarin</Debugger>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <AndroidSupportedAbis>arm64-v8a;armeabi;armeabi-v7a;x86;x86_64</AndroidSupportedAbis>
+    <AndroidKeyStore>False</AndroidKeyStore>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>
+    </DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <AndroidKeyStore>false</AndroidKeyStore>
+    <AndroidSigningKeyStore>/Users/joelbarbosa/Dropbox/GAME DEVELOPER/1Boy/oneboy.keystore</AndroidSigningKeyStore>
+    <AndroidSigningStorePass>oneboy</AndroidSigningStorePass>
+    <AndroidSigningKeyAlias>oneboy</AndroidSigningKeyAlias>
+    <AndroidSigningKeyPass>oneboy</AndroidSigningKeyPass>
+    <AndroidLinkMode>Full</AndroidLinkMode>
+    <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
+    <Debugger>Xamarin</Debugger>
+    <DebugSymbols>False</DebugSymbols>
+    <AndroidSupportedAbis>armeabi,armeabi-v7a,x86,x86_64,arm64-v8a</AndroidSupportedAbis>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Android" />
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml" />
+    <Reference Include="FM.Audio">
+      <HintPath>lib\FM.Audio.dll</HintPath>
+    </Reference>
+    <Reference Include="FM.Video">
+      <HintPath>lib\FM.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.CurrentActivity">
+      <HintPath>..\packages\Plugin.CurrentActivity.1.0.1\lib\MonoAndroid10\Plugin.CurrentActivity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation">
+      <HintPath>..\packages\CommonServiceLocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="PlatformAdapter">
+      <HintPath>..\packages\CrossPlatformAdapter.1.0.12\lib\MonoAndroid10\PlatformAdapter.dll</HintPath>
+    </Reference>
+    <Reference Include="CrossPlatformLibrary">
+      <HintPath>..\packages\CrossPlatformLibrary.1.0.73\lib\MonoAndroid10\CrossPlatformLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="CrossPlatformLibrary.Platform">
+      <HintPath>..\packages\CrossPlatformLibrary.1.0.73\lib\MonoAndroid10\CrossPlatformLibrary.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp">
+      <HintPath>..\packages\RestSharp.105.2.3\lib\MonoAndroid10\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Mobile">
+      <HintPath>..\Components\xamarin.mobile-0.7.7\lib\android\Xamarin.Mobile.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Matrix">
+      <HintPath>..\packages\MatriX.Xamarin.Android.2.0.0.17\lib\MonoAndroid\Matrix.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.Design">
+      <HintPath>..\..\..\..\..\Downloads\xamandroidsupportdesign-23.4.0.1\xamandroidsupportdesign-23.4.0.1\lib\android\Xamarin.Android.Support.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.Design">
+      <HintPath>..\..\..\Downloads\xamandroidsupportdesign-23.4.0.1\lib\android\Xamarin.Android.Support.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="BouncyCastle">
+      <HintPath>lib\BouncyCastle.dll</HintPath>
+    </Reference>
+    <Reference Include="crypto">
+      <HintPath>lib\crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="FM.IceLink.Simple">
+      <HintPath>lib\FM.IceLink.Simple.dll</HintPath>
+    </Reference>
+    <Reference Include="Guards">
+      <HintPath>..\packages\Guards.1.0.13\lib\MonoAndroid10\Guards.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.Design">
+      <HintPath>..\..\..\Downloads\xamandroidsupportdesign-23.4.0.1\lib\android\Xamarin.Android.Support.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v4">
+      <HintPath>..\packages\Xamarin.Android.Support.v4.23.4.0.1\lib\MonoAndroid403\Xamarin.Android.Support.v4.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.Vector.Drawable">
+      <HintPath>..\packages\Xamarin.Android.Support.Vector.Drawable.23.4.0.1\lib\MonoAndroid403\Xamarin.Android.Support.Vector.Drawable.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.Animated.Vector.Drawable">
+      <HintPath>..\packages\Xamarin.Android.Support.Animated.Vector.Drawable.23.4.0.1\lib\MonoAndroid403\Xamarin.Android.Support.Animated.Vector.Drawable.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v7.AppCompat">
+      <HintPath>..\packages\Xamarin.Android.Support.v7.AppCompat.23.4.0.1\lib\MonoAndroid403\Xamarin.Android.Support.v7.AppCompat.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v7.CardView">
+      <HintPath>..\packages\Xamarin.Android.Support.v7.CardView.23.4.0.1\lib\MonoAndroid403\Xamarin.Android.Support.v7.CardView.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v7.RecyclerView">
+      <HintPath>..\packages\Xamarin.Android.Support.v7.RecyclerView.23.4.0.1\lib\MonoAndroid403\Xamarin.Android.Support.v7.RecyclerView.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActivityService.cs" />
+    <Compile Include="Adapter\ChateCardAdapter.cs" />
+    <Compile Include="Adapter\ChateCardViewHolder.cs" />
+    <Compile Include="Adapter\NewGroupAdapter.cs" />
+    <Compile Include="Adapter\NewGroupViewHolder.cs" />
+    <Compile Include="ConnectionService.cs" />
+    <Compile Include="Opus\Decoder.cs" />
+    <Compile Include="Opus\Encoder.cs" />
+    <Compile Include="Opus\OpusCodec.cs" />
+    <Compile Include="Opus\OpusLibrary.cs" />
+    <Compile Include="VideoActivity.cs" />
+    <Compile Include="App.cs" />
+    <Compile Include="LocalMedia.cs" />
+    <Compile Include="Signalling.cs" />
+    <Compile Include="VP8\Decoder.cs" />
+    <Compile Include="VP8\Encoder.cs" />
+    <Compile Include="VP8\LibVpxCom.cs" />
+    <Compile Include="Resources\Resource.Designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VP8\LibVpxDec.cs" />
+    <Compile Include="VP8\LibVpxEnc.cs" />
+    <Compile Include="VP8\LibVpxEncConfig.cs" />
+    <Compile Include="VP8\LibVpxException.cs" />
+    <Compile Include="VP8\Rational.cs" />
+    <Compile Include="VP8\Vp8Codec.cs" />
+    <Compile Include="Opus\OpusEchoCanceller.cs" />
+    <Compile Include="AudioProcessing\AcousticEchoCanceller.cs" />
+    <Compile Include="AudioProcessing\AudioProcessingLibrary.cs" />
+    <Compile Include="IvfVideoCaptureProvider.cs" />
+    <Compile Include="OggAudioCaptureProvider.cs" />
+    <Compile Include="LoginActivity.cs" />
+    <Compile Include="SessionActivity.cs" />
+    <Compile Include="BaseActivity.cs" />
+    <Compile Include="MainApplication.cs" />
+    <Compile Include="services\GPSService.cs" />
+    <Compile Include="utils\AppPreferences.cs" />
+    <Compile Include="SplashAuthVideo.cs" />
+    <Compile Include="utils\LegionUtils.cs" />
+    <Compile Include="SignUpActivity.cs" />
+    <Compile Include="services\WServiceUrl.cs" />
+    <Compile Include="services\JsonBuilderService.cs" />
+    <Compile Include="ConfigurationActivity.cs" />
+    <Compile Include="ImportContactsActivity.cs" />
+    <Compile Include="LastContacts.cs" />
+    <Compile Include="Adapter\UserAdapter.cs" />
+    <Compile Include="Adapter\UserViewHolder.cs" />
+    <Compile Include="ContacPhoneActivity.cs" />
+    <Compile Include="ChatActivity.cs" />
+    <Compile Include="utils\CircleDrawable.cs" />
+    <Compile Include="BaseAppCompatActivity.cs" />
+    <Compile Include="services\XmppFacade.cs" />
+    <Compile Include="services\UserService.cs" />
+    <Compile Include="GroupAddActivity.cs" />
+    <Compile Include="Resources\menu\contacts_menu.cs" />
+    <Compile Include="VoiceCallActivity.cs" />
+    <Compile Include="CustomKeyboardView.cs" />
+    <Compile Include="ImgFullScreemActivity.cs" />
+    <Compile Include="await.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidNativeLibrary Include="lib\armeabi-v7a\libopus.so">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </AndroidNativeLibrary>
+    <AndroidNativeLibrary Include="lib\armeabi-v7a\libopusJNI.so">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </AndroidNativeLibrary>
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Properties\AndroidManifest.xml" />
+    <None Include="Assets\AboutAssets.txt" />
+    <AndroidNativeLibrary Include="lib\armeabi-v7a\libaudioprocessing.so">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </AndroidNativeLibrary>
+    <AndroidNativeLibrary Include="lib\armeabi-v7a\libaudioprocessingJNI.so">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </AndroidNativeLibrary>
+    <AndroidNativeLibrary Include="lib\x86\libopus.so">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </AndroidNativeLibrary>
+    <AndroidNativeLibrary Include="lib\x86\libopusJNI.so">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </AndroidNativeLibrary>
+    <AndroidNativeLibrary Include="lib\x86\libvpx.so">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </AndroidNativeLibrary>
+    <AndroidNativeLibrary Include="lib\x86\libvpxJNI.so">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </AndroidNativeLibrary>
+    <None Include="packages.config" />
+    <AndroidResource Include="Resources\Layout\Login.axml" />
+    <AndroidResource Include="Resources\Layout\SplashAuthVideo.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\legion.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\share.png" />
+    <AndroidResource Include="Resources\drawable\email_shape.xml" />
+    <AndroidResource Include="Resources\drawable\passw_shape.xml" />
+    <AndroidResource Include="Resources\Values\Colors.xml" />
+    <AndroidResource Include="Resources\drawable\buttom_shape.xml" />
+    <AndroidResource Include="Resources\drawable-mdpi\group.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\group.png" />
+    <AndroidResource Include="Resources\Layout\SignUpActivity.axml" />
+    <AndroidResource Include="Resources\drawable-mdpi\legion_messenger.png" />
+    <AndroidResource Include="Resources\drawable\editnoborder_shape.xml" />
+    <AndroidResource Include="Resources\drawable\fname_shape.xml" />
+    <AndroidResource Include="Resources\drawable\lname_shape.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\bg.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\bg.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\bg.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\bg.png" />
+    <AndroidResource Include="Resources\Layout\dialog_load.axml" />
+    <AndroidResource Include="Resources\drawable\anima_rotation.xml" />
+    <AndroidResource Include="Resources\Animator\slide_in_left.xml" />
+    <AndroidResource Include="Resources\Animator\slide_out_right.xml" />
+    <AndroidResource Include="Resources\Animator\stable.xml" />
+    <AndroidResource Include="Resources\drawable-mdpi\load.png" />
+    <AndroidResource Include="Resources\Layout\Configuration.axml" />
+    <AndroidResource Include="Resources\Layout\Contacts.axml" />
+    <AndroidResource Include="Resources\menu\actionbar_main.axml" />
+    <AndroidResource Include="Resources\Layout\Session.axml" />
+    <AndroidResource Include="Resources\Layout\Tab.axml" />
+    <AndroidResource Include="Resources\values-v21\styles.axml" />
+    <AndroidResource Include="Resources\Values\styles.axml" />
+    <AndroidResource Include="Resources\Layout\toolbar.axml" />
+    <AndroidResource Include="Resources\Layout\ContactsCardView.axml" />
+    <AndroidResource Include="Resources\drawable\rectangle.xml" />
+    <AndroidResource Include="Resources\drawable\circle.xml" />
+    <AndroidResource Include="Resources\drawable\profile_image.xml" />
+    <AndroidResource Include="Resources\Layout\ContactsPhone.axml" />
+    <AndroidResource Include="Resources\Layout\ChatActivity.axml" />
+    <AndroidResource Include="Resources\menu\actionbar_chat.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\video.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\avatar_upload.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\call.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\camera_gray.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\camera.png" />
+    <AndroidResource Include="Resources\Values\dimens.xml" />
+    <AndroidResource Include="Resources\values-v21\dimens.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\back.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\plus.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\config.png" />
+    <AndroidResource Include="Resources\drawable\shape_cam.xml" />
+    <None Include="Assets\System.Xml.Linq.dll" />
+    <AndroidResource Include="Resources\Layout\ChatCardView.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\upload.png" />
+    <AndroidResource Include="Resources\menu\actionbar_invisible.axml" />
+    <AndroidResource Include="Resources\Layout\AddNewGroup.axml" />
+    <AndroidResource Include="Resources\menu\contact_menu.axml" />
+    <AndroidResource Include="Resources\Layout\CardAddNewGroup.axml" />
+    <AndroidResource Include="Resources\Layout\VoiceCall.axml" />
+    <AndroidResource Include="Resources\Layout\Splash.axml" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\joel.jpg" />
+    <AndroidResource Include="Resources\Animator\slide_in_bottom.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\smiley.png" />
+    <AndroidResource Include="Resources\Layout\keyboard2.xml" />
+    <AndroidResource Include="Resources\Layout\imgFullScreem.axml" />
+    <AndroidResource Include="Resources\Drawable\status_online.xml" />
+    <AndroidResource Include="Resources\menu\actionbar_chat_group.axml" />
+    <AndroidResource Include="Resources\Drawable\splash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Layout\Video.axml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Values\Strings.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidJavaSource Include="java\Rational.java" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="FM.IceLink.WebRTC">
+      <HintPath>lib\FM.IceLink.WebRTC.dll</HintPath>
+    </Reference>
+    <Reference Include="FM.IceLink.WebSync">
+      <HintPath>lib\FM.IceLink.WebSync.dll</HintPath>
+    </Reference>
+    <Reference Include="FM.IceLink">
+      <HintPath>lib\FM.IceLink.dll</HintPath>
+    </Reference>
+    <Reference Include="FM.WebSync.Subscribers">
+      <HintPath>lib\FM.WebSync.Subscribers.dll</HintPath>
+    </Reference>
+    <Reference Include="FM.WebSync.Chat">
+      <HintPath>lib\FM.WebSync.Chat.dll</HintPath>
+    </Reference>
+    <Reference Include="FM.WebSync">
+      <HintPath>lib\FM.WebSync.dll</HintPath>
+    </Reference>
+    <Reference Include="FM">
+      <HintPath>lib\FM.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidNativeLibrary Include="lib\armeabi-v7a\libvpx.so">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </AndroidNativeLibrary>
+    <AndroidNativeLibrary Include="lib\armeabi-v7a\libvpxJNI.so">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </AndroidNativeLibrary>
+  </ItemGroup>
+  <Import Project="..\AppCore\AppCore\AppCore.projitems" Label="Shared" Condition="Exists('..\AppCore\AppCore\AppCore.projitems')" />
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+     Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <Import Project="..\packages\Xamarin.Android.Support.Vector.Drawable.23.4.0.1\build\Xamarin.Android.Support.Vector.Drawable.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Vector.Drawable.23.4.0.1\build\Xamarin.Android.Support.Vector.Drawable.targets')" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\load.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\video\splash_en_US.mp4" />
+    <AndroidAsset Include="Assets\video\splash_pt_BR.mp4" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EmotIconsLibrary\EmotIconsLibrary.csproj">
+      <Project>{c6d4efb1-9fdc-4977-8078-7fda431b5248}</Project>
+      <Name>EmotIconsLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Messaging\Messaging.csproj">
+      <Project>{21A39271-7C02-4BCC-9F0B-73C5FC366A01}</Project>
+      <Name>Messaging</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <XamarinComponentReference Include="json.net">
+      <Version>7.0.1</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
+    <XamarinComponentReference Include="xamandroidsupportv7appcompat">
+      <Visible>False</Visible>
+      <Version>23.4.0.1</Version>
+    </XamarinComponentReference>
+    <XamarinComponentReference Include="xamarin.mobile">
+      <Version>0.7.7</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\drawable-ldpi\" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\baloon_f.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\baloon_me.png" />
+  </ItemGroup>
+</Project>

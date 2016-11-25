@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/rootRelative"
+    android:gravity="center"
+    android:background="@android:color/white">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+    <include
+        layout="@layout/dialog_load" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/relativeRecycle"
+        android:layout_alignParentLeft="true"
+        android:layout_above="@+id/relative2"
+        android:layout_below="@id/toolbar">
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/relativeRecycle" />
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:overScrollMode="never"
+            android:id="@+id/rvLista"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_above="@+id/button"
+            android:layout_marginBottom="20dp" />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/button"
+            android:background="#ffe4e4e4"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnEnviar"
+                android:src="@drawable/upload"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="0dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <ImageView
+                android:id="@+id/btn_key_board"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/smiley"
+                android:layout_toRightOf="@+id/btnEnviar"
+                android:layout_centerVertical="true"
+                android:layout_margin="10dp" />
+            <com.vasundharareddy.emojicon.EmojiconEditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/edtMessage"
+                android:imeOptions="actionSend"
+                android:textColorHint="#ffe4e4e4"
+                android:gravity="center_vertical|center_horizontal|left"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="5dp"
+                android:hint="@string/chatMessage"
+                android:textSize="14dp"
+                android:background="@android:color/white"
+                android:layout_alignTop="@+id/btn_key_board"
+                android:layout_alignBottom="@+id/btn_key_board"
+                android:layout_toLeftOf="@+id/view"
+                android:layout_toRightOf="@+id/btn_key_board"
+                android:layout_toEndOf="@+id/btn_key_board"
+                android:layout_toStartOf="@id/view" />
+            <View
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:background="#ffe4e4e4"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/view" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="220dp"
+        android:id="@+id/relative2"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone">
+        <fragment
+            class="com.vasundharareddy.emojicon.EmojiconsFragment"
+            android:id="@+id/emojicons"
+            android:layout_width="match_parent"
+            android:layout_height="220dp" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+    <include
+        layout="@layout/dialog_load" />
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleGroup"
+        android:background="@android:color/white"
+        android:layout_below="@id/toolbar"
+        android:layout_marginTop="10dp">
+        <ImageView
+            android:id="@+id/avatar"
+            android:adjustViewBounds="true"
+            android:padding="8dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="5dp"
+            android:visibility="gone" />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/groupName"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/avatar"
+            android:maxLines="1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:hint="@string/nameGroup"
+            android:textColorHint="@android:color/darker_gray" />
+    </RelativeLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:scrollbars="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleGroup" />
+</RelativeLayout>

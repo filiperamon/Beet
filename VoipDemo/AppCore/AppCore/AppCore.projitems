@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{4D18BF7D-D1F5-4F69-A82A-CD459BA6A282}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>AppCore</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)MyClass.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)model\AbstractEntity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)lib\building\BitConverterUtil.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)lib\building\EqualsBuilder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)lib\building\HashCodeBuilder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)lib\building\MathUtil.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)lib\building\ToStringBuilder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)model\User.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)model\BaseEntity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)model\Contacts.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)model\Message.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)model\Location.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)model\Country.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)model\LatLng.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)utils\Utils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)model\Group.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)model\" />
+    <Folder Include="$(MSBuildThisFileDirectory)lib\" />
+    <Folder Include="$(MSBuildThisFileDirectory)lib\building\" />
+    <Folder Include="$(MSBuildThisFileDirectory)utils\" />
+  </ItemGroup>
+</Project>

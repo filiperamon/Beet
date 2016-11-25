@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="menu_text_color">#acaca9</color>
+	<color name="btn_red">#980000</color>
+	<color name="font_login">#D9D9D9</color>
+	<color name="red_text">#9d0009</color>
+	<color name="ph_contacts">#797979</color>
+	<color name="bg_cardv">#e3e4e4</color>
+
+
+
+</resources>

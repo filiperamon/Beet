@@ -1,0 +1,666 @@
+commit 6d55b04f6617b4bd2956eac07bf0f4bd58e43804
+Merge: 9f2d911 b3bcfd0
+Author: filiperamon <t100482@marquise.com.br>
+Date:   Fri Jul 29 17:58:00 2016 -0300
+
+    Merge branch 'master' of ssh://git-codecommit.us-east-1.amazonaws.com/v1/repos/VoipDemo
+
+commit b3bcfd015103d886d5d24f922913411cfc19be83
+Author: Joel Ferreira Barbosa <u197676@marquise.com.br>
+Date:   Fri Jul 29 17:56:08 2016 -0300
+
+    complete send
+
+commit 9f2d911633559efaa1f7bd703f5378221a68a849
+Merge: 3fd0273 7a4860d
+Author: filiperamon <t100482@marquise.com.br>
+Date:   Fri Jul 29 16:31:52 2016 -0300
+
+    Merge branch 'bugfix'
+
+commit 7a4860d927faa8b2604656b49d1be6d9eae75609
+Author: filiperamon <t100482@marquise.com.br>
+Date:   Fri Jul 29 16:30:52 2016 -0300
+
+    bugfix
+
+commit 3fd0273a6e210912807a3ef13b185239d88a2303
+Author: Joel Ferreira Barbosa <u197676@marquise.com.br>
+Date:   Fri Jul 29 16:23:08 2016 -0300
+
+    send message
+
+commit 67d2f29b006e356e639ed9edd439c4b2b9783dd9
+Author: Joel Ferreira Barbosa <u197676@marquise.com.br>
+Date:   Fri Jul 29 15:51:48 2016 -0300
+
+    fix bug
+
+commit 9a7765fe065d2289b67cd4f6975e5b45aa9b97d0
+Author: Joel Ferreira Barbosa <u197676@marquise.com.br>
+Date:   Fri Jul 29 11:01:16 2016 -0300
+
+    login
+
+commit 94332aac8a739334abd38b7dbbd2f3660a28295c
+Author: joelbarbosa <joelbarbosa.ads@gmail.com>
+Date:   Fri Jul 29 03:19:25 2016 -0300
+
+    complete sync contact
+
+commit 5b945b5607c86a0d20bda3aea22608a3e6ed71de
+Merge: 16af64e dd4e5b9
+Author: Joel Ferreira Barbosa <u197676@marquise.com.br>
+Date:   Thu Jul 28 18:27:11 2016 -0300
+
+    merg
+
+commit dd4e5b9922598d0a5d03f634b79c18783178675a
+Author: Joel Ferreira Barbosa <u197676@marquise.com.br>
+Date:   Thu Jul 28 18:25:49 2016 -0300
+
+    merge vca
+
+commit 16af64e6cfad3848dc0ef605bce16322fa546836
+Author: Joel Ferreira Barbosa <u197676@marquise.com.br>
+Date:   Thu Jul 28 18:23:20 2016 -0300
+
+    merge vcard
+
+commit bfee1db38d9256ea184afb7edf340b25d70ccf53
+Author: Joel Ferreira Barbosa <u197676@marquise.com.br>
+Date:   Thu Jul 28 18:20:40 2016 -0300
+
+    init vacard contatcs conversation
+
+commit ad21264f3035972525c1f764a4fd1a48c7d037bc
+Author: filiperamon <t100482@marquise.com.br>
+Date:   Thu Jul 28 16:37:46 2016 -0300
+
+    chat teste
+
+commit 91ae80e0742daaa548dbdd50afdc47af5805b191
+Merge: bdbfcb9 f85427b
+Author: filiperamon <t100482@marquise.com.br>
+Date:   Thu Jul 28 16:12:11 2016 -0300
+
+    Merge branch 'chat_work_2807'
+
+commit bdbfcb9584a04420c9c804453035a59a7d6cbe2e
+Author: Joel Ferreira Barbosa <u197676@marquise.com.br>
+Date:   Thu Jul 28 16:05:57 2016 -0300
+
+    vcard complete config
+
+commit f85427b5ad2b9f9c06a25b9ff9fbcfedc7d0b803
+Author: filiperamon <t100482@marquise.com.br>
+Date:   Thu Jul 28 15:38:49 2016 -0300
+
+    criacao de cards e envio de msg chat
+
+commit 590002d2d23eb0d733da1fe4261616597ad99032
+Author: Joel Ferreira Barbosa <u197676@marquise.com.br>
+Date:   Thu Jul 28 14:23:41 2016 -0300
+
+    save vcard implementation
+
+commit 57c5bee955d6371b311cc476d1f2827d2d2e97f6
+Author: joelbarbosa <joelbarbosa.ads@gmail.com>
+Date:   Thu Jul 28 02:14:45 2016 -0300
+
+    vcard photo
+
+commit f9329ba2221e3c532dea6b5242418ad3a0b3f428
+Merge: 65f7a06 a1f1719
+Author: joelbarbosa <joelbarbosa.ads@gmail.com>
+Date:   Thu Jul 28 00:16:45 2016 -0300
+
+    merge conflict
+
+commit a1f1719c8d472596465385da14df213172b0c8d8
+Author: Macbook <macbook@MBP-de-Macbook.home>
+Date:   Wed Jul 27 23:07:33 2016 -0700
+
+    melhorias de layout
+
+commit 65f7a06e35c9882c82fa935d617aa2efab23737a
+Author: joelbarbosa <joelbarbosa.ads@gmail.com>
+Date:   Thu Jul 28 00:13:18 2016 -0300
+
+    remove static username
+
+commit 22834fee535e795ba507d0fbec8cd82fd9090854
+Author: filiperamon <t100482@marquise.com.br>
+Date:   Wed Jul 27 16:46:03 2016 -0300
+
+    cards msg in list
+
+commit b58d41d115b673a8728bb1dd07bf6cb366b36cdd
+Author: Joel Ferreira Barbosa <u197676@marquise.com.br>
+Date:   Wed Jul 27 15:21:09 2016 -0300
+
+    load.png
+
+commit 170bb009e2a02d178a31d65e4114318a24ec1f79
+Author: Joel Ferreira Barbosa <u197676@marquise.com.br>
+Date:   Wed Jul 27 15:11:13 2016 -0300
+
+    sync friend email
+
+commit dc3fb00f720e4d9648f3937ceec4521f0c7ed916
+Author: joelbarbosa <joelbarbosa.ads@gmail.com>
+Date:   Wed Jul 27 02:15:15 2016 -0300
+
+    developer sync
+
+commit 8820146fc8bb06fe95e9e9f9965f5756a49b25be
+Author: Macbook <macbook@MBP-de-Macbook.home>
+Date:   Tue Jul 26 22:59:22 2016 -0700
+
+    Alteracoes tela chat
+
+commit 7b842e2e37a2898de98bffad4a657ed4d5bfaa9f
+Merge: a1bf3de 7dc2a00
+Author: Macbook <macbook@MBP-de-Macbook.home>
+Date:   Tue Jul 26 20:30:55 2016 -0700
+
+    resolved conflit between mastes and branch chat_conversation
+
+commit 7dc2a007fcd18e2fee492648a1b84613c67527a9
+Author: Macbook <macbook@MBP-de-Macbook.home>
+Date:   Tue Jul 26 20:28:20 2016 -0700
+
+    criacao de telas de chate - em desenvolvimento
+
+commit a1bf3de22bea663d49880d1e4482d9638584dc17
+Author: Joel Ferreira Barbosa <u197676@marquise.com.br>
+Date:   Tue Jul 26 18:11:07 2016 -0300
+
+    novas alteracoes baseapp
+
+commit e7419891a7abb40c65f2fe083caeb95f41b7818b
+Author: joelbarbosa <joelbarbosa.ads@gmail.com>
+Date:   Tue Jul 26 02:01:28 2016 -0300
+
+    change in session
+
+commit eb7a2601b91c5a2f40f8aa94bdfd3b28f25bf9fb
+Author: joelbarbosa <joelbarbosa.ads@gmail.com>
+Date:   Tue Jul 26 01:03:00 2016 -0300
+
+    fix bug license matrix for mac add in assets system.xml.linq.dll
+
+commit 24bb5d69869ad85d261933003743b5696e3d5b4d
+Merge: dd72ac4 e4af84e
+Author: joelbarbosa <joelbarbosa.ads@gmail.com>
+Date:   Thu Jul 21 20:00:14 2016 -0300
+
+    resolved conflict manifest
+
+commit dd72ac4e95641f04e4a27a578aa2513863d2a489
+Author: joelbarbosa <joelbarbosa.ads@gmail.com>
+Date:   Thu Jul 21 19:55:10 2016 -0300
+
+    configuration, contatcs aproved
+
+commit e4af84ef2276e0a89f32c98a445a8b77414bc59c
+Merge: c985187 ba81876
+Author: Lloyd <llloyd@gmail.com>
+Date:   Thu Jul 21 10:31:22 2016 -0700
+
+    sync
+
+commit c9851872d81ecb85901fd1f4f4d3db72e7db153c
+Author: Lloyd <llloyd@gmail.com>
+Date:   Thu Jul 21 10:30:15 2016 -0700
+
+    tidy up, include test project
+
+commit ba81876ba26144b326fbd271798c1dcc95cd73ba
+Author: filiperamon <filipe.ramon7@gmail.com>
+Date:   Wed Jul 20 23:27:52 2016 -0300
+
+    ajustes de video e import contatos
+
+commit 98a82716183a6b596f766da5c08c9846e88204de
+Author: joelbarbosa <joelbarbosa.ads@gmail.com>
+Date:   Wed Jul 20 21:19:14 2016 -0300
+
+    bug resolved conflict
+
+commit 36a2edf92f76c509b125135ff5742ac14718e5ed
+Merge: c87ed0f 505c381
+Author: joelbarbosa <joelbarbosa.ads@gmail.com>
+Date:   Wed Jul 20 20:03:52 2016 -0300
+
+    err
+
+commit c87ed0fd4efd15f7df31dfa816559a842bc854ab
+Author: joelbarbosa <joelbarbosa.ads@gmail.com>
+Date:   Wed Jul 20 20:01:11 2016 -0300
+
+    design cs
+
+commit deb9d568cc8bb50593934146a77f3fa12341dada
+Merge: 23906e3 89e1b5b
+Author: joelbarbosa <joelbarbosa.ads@gmail.com>
+Date:   Wed Jul 20 19:49:12 2016 -0300
+
+    merge config and contacts
+
+commit 505c3811861fea0d5a286542caab4abba4128066
+Author: Lloyd <llloyd@gmail.com>
+Date:   Wed Jul 20 12:08:14 2016 -0700
+
+    single line
+
+commit 42d9a1ae01d59dbd9553e1c2e925642a486a4872
+Author: Lloyd <llloyd@gmail.com>
+Date:   Wed Jul 20 11:38:45 2016 -0700
+
+    encryption work
+
+commit a7b272cd8bfeb05c3f7b92cd2e4b70e3f0614fb1
+Merge: 0c8ffac 196be2e
+Author: Lloyd <llloyd@gmail.com>
+Date:   Wed Jul 20 11:12:27 2016 -0700
+
+    local
+
+commit 89e1b5b7cc68f226458d24a8c9acc86041d4df7e
+Author: joelbarbosa <joelbarbosa.ads@gmail.com>
+Date:   Wed Jul 20 02:55:13 2016 -0300
+
+    busca implementada
+
+commit 23906e3b745d5883bccbc596a71e2e81ddc98878
+Author: joelbarbosa <joelbarbosa.ads@gmail.com>
+Date:   Wed Jul 20 00:55:19 2016 -0300
+
+    design.cs
+
+commit 4e175f36ccf2e666654ad90fb3b43c3de1bd4092
+Author: joelbarbosa <joelbarbosa.ads@gmail.com>
+Date:   Wed Jul 20 00:47:32 2016 -0300
+
+    contatcs cardview edit
+
+commit 196be2efd67bff68551b7d30df69df3d38572d97
+Merge: 03d06bb 7ccbbcf
+Author: filiperamon <filipe.ramon7@gmail.com>
+Date:   Tue Jul 19 23:52:48 2016 -0300
+
+    Merge branch 'work_settings'
+
+commit 03d06bba31b90396837ca523ae296f31142de3be
+Author: filiperamon <filipe.ramon7@gmail.com>
+Date:   Tue Jul 19 23:52:04 2016 -0300
+
+    merge com branch work_settings
+
+commit 7ccbbcf56e3999cba9615ddcf600af24c3fba6f2
+Author: filiperamon <filipe.ramon7@gmail.com>
+Date:   Tue Jul 19 23:48:27 2016 -0300
+
+    Commit ajustes tela de configuracao
+
+commit 6457a991d8fe8f0a67bab741c9ec98431923913e
+Author: joelbarbosa <joelbarbosa.ads@gmail.com>
+Date:   Tue Jul 19 21:02:29 2016 -0300
+
+    alteracao config
+
+commit 512fffd115929c91e567d96b440c30e4da67bead
+Author: joelbarbosa <joelbarbosa.ads@gmail.com>
+Date:   Tue Jul 19 20:49:22 2016 -0300
+
+    drawablecircle
+
+commit 0c8ffac0620249a3dc30aed50e71ff31946d0f67
+Author: Lloyd <llloyd@gmail.com>
+Date:   Tue Jul 19 10:06:03 2016 -0700
+
+    openpgp/PEP changes
+
+commit 25b27316d4109ec348d0cf1f58b949c42269ebe2
+Merge: 03bed08 2e8fc60
+Author: joelbarbosa <joelbarbosa.ads@gmail.com>
+Date:   Tue Jul 19 03:02:12 2016 -0300
+
+    merged
+
+commit 03bed0814b1fda25d6179e882bbb6194f384b378
+Author: joelbarbosa <joelbarbosa.ads@gmail.com>
+Date:   Tue Jul 19 02:45:45 2016 -0300
+
+    resolutions bugs
+
+commit 2e8fc60c34d4779b69e6bf6c12208ef9f9fdded6
+Merge: 0923919 1c9cfe6
+Author: Lloyd <llloyd@gmail.com>
+Date:   Mon Jul 18 09:54:03 2016 -0700
+
+    Merge branch 'master' of https://git-codecommit.us-east-1.amazonaws.com/v1/repos/VoipDemo
+
+commit 55550d81d46e668ef0d9a0d6bd72e0bfaeb19784
+Author: joelbarbosa <joelbarbosa.ads@gmail.com>
+Date:   Mon Jul 18 00:15:25 2016 -0300
+
+    some..
+
+commit a3dab292f810c1cebcd9556cf13832f2ad90f97a
+Author: joelbarbosa <joelbarbosa.ads@gmail.com>
+Date:   Sun Jul 17 23:32:47 2016 -0300
+
+    ...
+
+commit 1c9cfe60f44ea0139b75d7728d30f9d285a3db60
+Author: joelbarbosa <joelbarbosa.ads@gmail.com>
+Date:   Sun Jul 17 15:47:45 2016 -0300
+
+    new alterations
+
+commit 0923919d71c5523bc2734c5dd703ee8723e388ae
+Author: Lloyd <llloyd@gmail.com>
+Date:   Thu Jul 14 10:54:50 2016 -0700
+
+    cleanup
+
+commit 3ed66532c116e4cad08afa36db846027167c5e4e
+Merge: 410c4ed ff2efd3
+Author: Lloyd <llloyd@gmail.com>
+Date:   Thu Jul 14 10:46:29 2016 -0700
+
+    Merge branch 'master' of https://git-codecommit.us-east-1.amazonaws.com/v1/repos/VoipDemo
+
+commit 410c4ede3868f0f73656f22718389571b5268291
+Author: Lloyd <llloyd@gmail.com>
+Date:   Thu Jul 14 10:43:35 2016 -0700
+
+    new seerver address
+
+commit 7768ffebea00f72c575a38477703baee44f9f909
+Author: Lloyd <llloyd@gmail.com>
+Date:   Thu Jul 14 10:40:00 2016 -0700
+
+    clarification on var name
+
+commit ff2efd31537911643b759e0890f4eecde5669fa6
+Author: joelbarbosa <joelbarbosa.ads@gmail.com>
+Date:   Mon Jul 11 23:52:35 2016 -0300
+
+    add contatcs to master
+
+commit 4ad43d175eeb01f929a294abe8c6a3522e698183
+Author: joelbarbosa <joelbarbosa.ads@gmail.com>
+Date:   Mon Jul 11 23:51:53 2016 -0300
+
+    add contacts to master
+
+commit 9e5c0277ef95f66a0601719e856543b7e1a7a2f4
+Author: joelbarbosa <joelbarbosa.ads@gmail.com>
+Date:   Mon Jul 11 20:08:10 2016 -0300
+
+    contacts
+
+commit 692bb242d7387926c1857aaecf835ba3bfb312b4
+Merge: df66118 cb98193
+Author: joelbarbosa <joelbarbosa.ads@gmail.com>
+Date:   Thu Jul 7 23:25:57 2016 -0300
+
+    merged
+
+commit df6611877dee84ee200e997518474ee9f60373bb
+Author: joelbarbosa <joelbarbosa.ads@gmail.com>
+Date:   Thu Jul 7 23:21:19 2016 -0300
+
+    some code
+
+commit 442fa9e9ac404ca2c4873d805f8c0f1a37302633
+Author: joelbarbosa <joelbarbosa.ads@gmail.com>
+Date:   Thu Jul 7 23:20:52 2016 -0300
+
+    some code
+
+commit cb9819362f4eca6302eff745665c1fcf21426af3
+Author: Lloyd <llloyd@gmail.com>
+Date:   Thu Jul 7 09:21:56 2016 -0700
+
+    legiontech.org urls
+
+commit 82337a9c12bf3342aa5714493ce203d67d4fae5e
+Author: Lloyd <llloyd@gmail.com>
+Date:   Tue Jul 5 14:39:40 2016 -0700
+
+    new license
+
+commit 8d158027f021ab1a46e2f8fa05669a408697af86
+Author: Lloyd <llloyd@gmail.com>
+Date:   Tue Jul 5 10:28:11 2016 -0700
+
+    change connect hostname
+
+commit 3798c292a084ca0015a2355a53986bbf18d4d00d
+Author: joelbarbosa <joelbarbosa.ads@gmail.com>
+Date:   Tue Jun 21 09:07:51 2016 -0300
+
+    changes IDEA after merged
+
+commit 8051d48a44deefac41244f31d341d6d911f55b6c
+Merge: 608cf01 3dadb3b
+Author: joelbarbosa <joelbarbosa.ads@gmail.com>
+Date:   Tue Jun 21 01:12:41 2016 -0300
+
+    fix conflict merge login+first run in master
+
+commit 608cf018e8bbf7f937995df90eebca121cdd6688
+Author: joelbarbosa <joelbarbosa.ads@gmail.com>
+Date:   Tue Jun 21 00:50:04 2016 -0300
+
+    Resources changes
+
+commit 3dadb3bdd57ad452285945a3a74280ba39f21de7
+Author: joelbarbosa <joelbarbosa.ads@gmail.com>
+Date:   Tue Jun 21 00:16:57 2016 -0300
+
+    first run and login implementations
+
+commit 08f5d22c087d22f48ed0d495809e984640b86232
+Author: Lloyd <llloyd@gmail.com>
+Date:   Sat Jun 18 08:24:07 2016 -0700
+
+    better solution
+
+commit 2976e77777bc1561f6bb0a24f6cbc7089e20a6ce
+Author: Lloyd <llloyd@gmail.com>
+Date:   Sat Jun 18 08:23:36 2016 -0700
+
+    better solution
+
+commit 83eac54e5c584dcb85526af00490794b6558c97b
+Author: Lloyd <llloyd@gmail.com>
+Date:   Fri Jun 17 21:10:50 2016 -0700
+
+    fix for canada
+
+commit ebefde7e8d1aa71f5c1a528f3eab72c5aee84ce3
+Author: Lloyd <llloyd@gmail.com>
+Date:   Thu Jun 16 11:49:17 2016 -0700
+
+    add accept/deny friend  handler
+
+commit d70d140ed11d328e8b6df30d67d206ec702423e5
+Author: Lloyd <llloyd@gmail.com>
+Date:   Tue Jun 14 12:02:39 2016 -0700
+
+    add change password
+
+commit b7752715b22e9f28020b36507db44ee67974e35f
+Merge: 162aa68 562c9ba
+Author: Lloyd <llloyd@gmail.com>
+Date:   Tue Jun 14 09:45:47 2016 -0700
+
+    sync?
+
+commit 162aa68bfb24dea3e056f357ed1b8a4268c103b2
+Author: Lloyd <llloyd@gmail.com>
+Date:   Tue Jun 14 09:38:40 2016 -0700
+
+    search docs
+
+commit 55ac36f3078f3b865c962660d8e4a0d4a3cfca09
+Author: Lloyd <llloyd@gmail.com>
+Date:   Mon Jun 13 16:18:44 2016 -0700
+
+    add search by email functionality, changed class visibility
+
+commit 562c9ba7acd1a57dabb61c83c363a8cb5ad62f8a
+Merge: 10ecff5 2d50ff3
+Author: joelbarbosa <joelbarbosa.ads@gmail.com>
+Date:   Fri Jun 10 14:24:38 2016 -0300
+
+    fix conflicts
+
+commit 10ecff5ab36fe8f061e479a23c6b204299aa8756
+Author: joelbarbosa <joelbarbosa.ads@gmail.com>
+Date:   Fri Jun 10 08:50:14 2016 -0300
+
+    add new edit
+
+commit 30382d2bc806754a67e6412538465f6a4bf9e1fc
+Author: joelbarbosa <joelbarbosa.ads@gmail.com>
+Date:   Fri Jun 10 00:56:08 2016 -0300
+
+    configuration project and change files, imports
+
+commit 2d50ff34a3e9205f6e6690d0a499237f22ecc404
+Author: Lloyd <llloyd@gmail.com>
+Date:   Tue Jun 7 13:40:28 2016 -0700
+
+    add profile get/set
+
+commit f631a8756c19821e6c01df91e72095846a0fcaa3
+Author: Lloyd <llloyd@gmail.com>
+Date:   Wed May 25 12:48:13 2016 -0700
+
+    cleanup 3
+
+commit 5876382d03771999d73af28cd9a52558f905a512
+Author: Lloyd <llloyd@gmail.com>
+Date:   Wed May 25 12:43:47 2016 -0700
+
+    cleanup
+
+commit 38009fe379e89a4c4e38a47f802846cf0580f829
+Author: Lloyd <llloyd@gmail.com>
+Date:   Wed May 25 12:42:52 2016 -0700
+
+    cleanup:
+
+commit d8873de90122e44182ea246affe3381b1422bc10
+Author: Lloyd <llloyd@gmail.com>
+Date:   Wed May 25 12:20:46 2016 -0700
+
+    new coturn (TURN) server credentials
+
+commit 68f74aaab3c125225f32826988f39a1fbea78590
+Author: Lloyd <llloyd@gmail.com>
+Date:   Wed May 25 11:09:59 2016 -0700
+
+    snapshot
+
+commit f9c4bd03d035517b5139df516d8c08053c78ff05
+Author: Lloyd <llloyd@gmail.com>
+Date:   Thu May 19 09:21:07 2016 -0700
+
+    morning commit before changes
+
+commit b0dfb772873228c60c753b72eb6849105dd96545
+Author: Lloyd <llloyd@gmail.com>
+Date:   Wed May 18 12:57:02 2016 -0700
+
+    sync
+
+commit 1b9c5eb0835b88e1f32093da26084193fd28e248
+Author: Lloyd <llloyd@gmail.com>
+Date:   Wed May 18 11:45:30 2016 -0700
+
+    asdf
+
+commit 8fd0545cbefdf69edbef79acd7ff63d5c4d98e32
+Author: Lloyd <llloyd@gmail.com>
+Date:   Wed May 18 10:59:17 2016 -0700
+
+    sync 5/18/2016
+
+commit 91a739015856cc39313b2ae946b98e65510d2d35
+Author: Lloyd <llloyd@gmail.com>
+Date:   Wed May 18 10:58:44 2016 -0700
+
+    asdf
+
+commit 7fda3c8354e04511851c9af125cdf87f7f68c781
+Author: Lloyd <llloyd@gmail.com>
+Date:   Wed May 11 16:43:42 2016 -0700
+
+    sync
+
+commit b85d99c098575bf1e7b8c5fbe1a8640180dd6da2
+Author: Lloyd <llloyd@gmail.com>
+Date:   Mon May 9 09:48:45 2016 -0700
+
+    sync
+
+commit 78f5e257538995175a6b744bd5044e183829d277
+Author: Lloyd <llloyd@gmail.com>
+Date:   Wed May 4 14:58:38 2016 -0700
+
+    working xmpp signalling
+
+commit a59eb6af6b4182f1009df207f1f2e0d09f68af63
+Author: Lloyd <llloyd@gmail.com>
+Date:   Tue May 3 16:26:51 2016 -0700
+
+    sync
+
+commit 97a93769fc8f8792d800ae29e5983eac020d9856
+Author: Lloyd <llloyd@gmail.com>
+Date:   Thu Apr 28 17:11:58 2016 -0700
+
+    cleanup
+
+commit b0c8fe2a9dd80ed43c305a24d88021a75d2150e9
+Author: Lloyd <llloyd@gmail.com>
+Date:   Thu Apr 28 17:00:20 2016 -0700
+
+    rename
+
+commit db3e451206bc57f4ea7416d2cdfd3bca92fd0e7d
+Author: Lloyd <llloyd@gmail.com>
+Date:   Thu Apr 28 16:54:38 2016 -0700
+
+    sync
+
+commit bfe1e2c94807141260b47136dff52b9b2b21a3e0
+Author: Lloyd <llloyd@gmail.com>
+Date:   Thu Apr 28 14:41:38 2016 -0700
+
+    sync
+
+commit 81279b118816daf88ea706b0c46bb2225711bcea
+Author: Lloyd <llloyd@gmail.com>
+Date:   Thu Apr 28 11:04:51 2016 -0700
+
+    sync
+
+commit b85ec341f1cbc76cddd717f5d8bc11ca7412d00c
+Author: Lloyd <llloyd@gmail.com>
+Date:   Thu Apr 28 11:04:16 2016 -0700
+
+    sync
+
+commit fb1ad6256a8d7780228a8b9619dd0cc469706fd8
+Author: Lloyd <llloyd@gmail.com>
+Date:   Wed Apr 27 13:28:12 2016 -0700
+
+    initial

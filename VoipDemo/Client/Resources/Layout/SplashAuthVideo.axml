@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@android:color/black">
+    <SurfaceView
+        android:id="@+id/splashVideo"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center" />
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+        <ImageView
+            android:id="@+id/legion"
+            android:layout_width="10000dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/group"
+            android:layout_marginTop="30dp" />
+        <TextView
+            android:id="@+id/titlePri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:paddingBottom="150dp"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:text="Communicate" />
+        <TextView
+            android:id="@+id/titleS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:paddingBottom="110dp"
+            android:textSize="15sp"
+            android:lines="2"
+            android:text="Online or offiline your \n messages will get through." />
+    </RelativeLayout>
+</RelativeLayout>

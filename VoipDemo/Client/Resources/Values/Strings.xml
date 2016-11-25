@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Hello">Hello World, Click Me!</string>
+    <string name="ApplicationName">Legion</string>
+	<string name="jid">messaging.beetmessenger.com</string>
+	<string name="ok">OK</string>
+
+	<!-- First Run Video-->
+    <string name="tvTitle1">Communicate</string>
+    <string name="tvTxt1">Online or offiline your \n messages will get through.</string>
+    <string name="tvTitle2">Live Video</string>
+    <string name="tvTxt2">Be your own director. Or simply \n say hi to your friends with a smile.</string>
+    <string name="tvTitle3">Fully Encrypted</string>
+    <string name="tvTxt3">Your privacy in important to us. \n Online or offline.</string>
+    <string name="tvTitle4">Translation</string>
+    <string name="tvTxt4">No more language barrier. \n Text your friends with Legions built in universal translator.</string>
+
+	<!-- Login -->
+	<string name="welcomeBack">Welcome back</string>
+	<string name="logIn">Log in</string>
+	<string name="signup">Sign up</string>
+    <string name="updateUser">Update</string>
+	<string name="fogotP">Forgot your password</string>
+	<string name="notRead">Not ready to Sign? Explore the app.</string>
+	<string name="completeProfile">Almost there. Complete your \n profile to expand your network.</string>
+	<string name="userName">User Name</string>
+	<string name="email">Email</string>
+	<string name="password">Password</string>
+	<string name="updateProfile">Update Profile</string>
+
+	<!-- Configuration -->
+	<string name="configurations">Configurations</string>
+	<string name="phone">Your Phone Number</string>
+	<string name="fistName">First name</string>
+	<string name="lastName">Last name</string>
+	<string name="changePassw">Change Password</string>
+	<string name="enableNotif">Enable Notifications</string>
+	<string name="signOut">Sign Out</string>
+	<string name="confirmTitle">Confirm</string>
+	<string name="confirmMSG">Are you sure you wish to exit the application?</string>
+	<string name="confirmOk">Yes</string>
+	<string name="confirmNOk">No</string>
+
+	<!-- validation -->
+	<string name="edtLength">invalid minimum 6</string>
+	<string name="emailErro">invalid email</string>
+	<string name="invalidField">invalid field</string>
+	<string name="success">successful action</string>
+	<string name="authFailed">Invalid API username/password </string>
+	<string name="userNameExist">Username already in use </string>
+	<string name="userNameInvalid">Invalid Username </string>
+	<string name="emailExist">Email address already in use </string>
+	<string name="passwInvalid">Password doesn’t meet requirements</string>
+	<string name="unknowError">Unknown error</string>
+
+	<!-- importContacts -->
+	<string name="importContacts">Legion needs to import contacts</string>
+	<string name="importTxt">Import</string>
+	<string name="wait">Wait</string>
+	<string name="permission_contacts_rationale">Contacts permissions are needed to demonstrate access.</string>
+
+	<!-- conversations -->
+	<string name="conversations">Conversations</string>
+	<string name="config">Config</string>
+	<string name="add">Add</string>
+	<string name="initText">You have no message yet.</string>
+	<string name="initText2">Start a new chat by tapping the icon</string>
+
+	<!-- contacts -->
+	<string name="contacts">Contacts</string>
+	<string name="search">Search</string>
+	<string name="addGroup">Add group</string>
+	<string name="addContact">Add contact</string>
+  <string name="syncContacts">Sync contacts</string>
+
+
+	<!-- chat -->
+	<string name="call">Call</string>
+	<string name="video">Video</string>
+<!--	<string name="matrix_linc">eJxkkd1SwjAQRl+l4y2jSSml4oSMpShIW0VtBb0LTSjF/NGmWHh68Q8uvPv2nN3ZnVkUFRmTFbMawWXVPyP5eaWW5oOU7Ir/qDOMpqWidWbuKI6VVMNSFRSBE0SPNZGmMDtsI3DMKKgrowQrMbongmFfEEkZ01aqNeEIfEMUKKGJPEz2Ol7nElo+X7DSECsy9MKyEPjz6EaQgmPOudrR6/yruMiUQOCHHxqP21JNiWE3jS5KNjwk3Ia2Bz3oIvBPoecil8TUJcPBq3gZGN1bGe75ai7mq1okL2AxUk8TvztditwO4O0odHJ7kOYfUaeAs3HXTux5+ZBsg0H8HsfR3mkXm81uuXZk1IQ0eWzchePBmUvnPdjolrjssKcsBaHUvSAbes5CbVXXdzWZvMYVexsSPp1BcLvZUinabtham7GnR2EyHexjL+3GJjSj9z4Cp7sR+P0h/hRA</string>-->
+	<string name="matrix_linc">eJxkkd1SwjAQRl+l4y2jSSml4oSMpShIW0VtBb0LTSjF/NGmWHh68Q8uvPv2nN3ZnVkUFRmTFbMawWXVPyP5eaWW5oOU7Ir/qDOMpqWidWbuKI6VVMNSFRSBE0SPNZGmMDtsI3DMKKgrowQrMbongmFfEEkZ01aqNeEIfEMUKKGJPEz2Ol7nElo+X7DSECsy9MKyEPjz6EaQgmPOudrR6/yruMiUQOCHHxqP21JNiWE3jS5KNjwk3Ia2Bz3oIvBPoecil8TUJcPBq3gZGN1bGe75ai7mq1okL2AxUk8TvztditwO4O0odHJ7kOYfUaeAs3HXTux5+ZBsg0H8HsfR3mkXm81uuXZk1IQ0eWzchePBmUvnPdjolrjssKcsBaHUvSAbes5CbVXXdzWZvMYVexsSPp1BcLvZUinabtham7GnR2EyHexjL+3GJjSj9z4Cp7sR+P0h/hRA</string>
+	<string name="chatMessage">     | Awesome, lets chat</string>
+	<string name="gallery">Gallery</string>
+  <string name="deleteGroup">Delete Group</string>
+  <string name="confirmDeletGroup">Are you sure you wish to delete this group?</string>
+
+
+	<!-- Group -->
+	<string name="nameGroup">Enter the group name</string>
+	<string name="infoGroup">Name the group and give an optional photo</string>
+	<string name="newGroup">New Group</string>
+  <string name="errorNoContact">select a contact!</string>  
+
+	<!-- Video -->
+	<string name="connecting">Connecting...</string>
+	<string name="time">00:00</string>
+</resources>

@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messaging", "Messaging\Messaging.csproj", "{21A39271-7C02-4BCC-9F0B-73C5FC366A01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebRTC", "Client\WebRTC.csproj", "{54D61A1B-C98C-4676-B059-752AE7854B1E}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "AppCore", "AppCore\AppCore\AppCore.shproj", "{4D18BF7D-D1F5-4F69-A82A-CD459BA6A282}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MUCDemo", "MUCDemo\MUCDemo.csproj", "{7576A085-9DB3-4AE8-BE35-FCFCF61284D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmotIconsLibrary", "EmotIconsLibrary\EmotIconsLibrary.csproj", "{C6D4EFB1-9FDC-4977-8078-7FDA431B5248}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PGPDemo", "PGPDemo\PGPDemo.csproj", "{103244EF-FD1A-4891-A15C-D602D583B5AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniClientAndroid", "MiniClientAndroid\MiniClientAndroid.csproj", "{60F4286E-BC72-4C35-A584-018508BF4291}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		AppCore\AppCore\AppCore.projitems*{21a39271-7c02-4bcc-9f0b-73c5fc366a01}*SharedItemsImports = 4
+		AppCore\AppCore\AppCore.projitems*{4d18bf7d-d1f5-4f69-a82a-cd459ba6a282}*SharedItemsImports = 13
+		AppCore\AppCore\AppCore.projitems*{54d61a1b-c98c-4676-b059-752ae7854b1e}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21A39271-7C02-4BCC-9F0B-73C5FC366A01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21A39271-7C02-4BCC-9F0B-73C5FC366A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21A39271-7C02-4BCC-9F0B-73C5FC366A01}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{21A39271-7C02-4BCC-9F0B-73C5FC366A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21A39271-7C02-4BCC-9F0B-73C5FC366A01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54D61A1B-C98C-4676-B059-752AE7854B1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54D61A1B-C98C-4676-B059-752AE7854B1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54D61A1B-C98C-4676-B059-752AE7854B1E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{54D61A1B-C98C-4676-B059-752AE7854B1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54D61A1B-C98C-4676-B059-752AE7854B1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7576A085-9DB3-4AE8-BE35-FCFCF61284D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7576A085-9DB3-4AE8-BE35-FCFCF61284D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7576A085-9DB3-4AE8-BE35-FCFCF61284D6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7576A085-9DB3-4AE8-BE35-FCFCF61284D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7576A085-9DB3-4AE8-BE35-FCFCF61284D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7576A085-9DB3-4AE8-BE35-FCFCF61284D6}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C6D4EFB1-9FDC-4977-8078-7FDA431B5248}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6D4EFB1-9FDC-4977-8078-7FDA431B5248}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6D4EFB1-9FDC-4977-8078-7FDA431B5248}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6D4EFB1-9FDC-4977-8078-7FDA431B5248}.Release|Any CPU.Build.0 = Release|Any CPU
+		{103244EF-FD1A-4891-A15C-D602D583B5AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{103244EF-FD1A-4891-A15C-D602D583B5AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{103244EF-FD1A-4891-A15C-D602D583B5AA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{103244EF-FD1A-4891-A15C-D602D583B5AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{103244EF-FD1A-4891-A15C-D602D583B5AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{103244EF-FD1A-4891-A15C-D602D583B5AA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{60F4286E-BC72-4C35-A584-018508BF4291}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60F4286E-BC72-4C35-A584-018508BF4291}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60F4286E-BC72-4C35-A584-018508BF4291}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{60F4286E-BC72-4C35-A584-018508BF4291}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60F4286E-BC72-4C35-A584-018508BF4291}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60F4286E-BC72-4C35-A584-018508BF4291}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Xamarin.Android.Conference.WebRTC\Xamarin.Android.Conference.WebRTC.csproj
+	EndGlobalSection
+EndGlobal

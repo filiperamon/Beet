@@ -1,0 +1,15 @@
+﻿<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+	 <item android:id="@+id/optionschat"       
+		  android:orderInCategory="100"
+      	  android:title="@string/gallery"	
+          app:showAsAction="never"
+     />
+  <item android:id="@+id/optionsdeletgroup"
+       android:orderInCategory="200"
+       android:title="@string/deleteGroup"
+       app:showAsAction="never"
+     />
+	
+</menu>
